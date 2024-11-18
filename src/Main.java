@@ -11,6 +11,9 @@ public class Main {
         book_2.printBook();
         book_1.setYear(1987);
         book_1.printBook();
+        System.out.println(new Book("Новый мир", author_1, 2005));
+        System.out.println(author_1.equals(new Author("Терри", "Пратчетт")));
+        System.out.println(book_1.equals(new Book("Мор, ученик смерти", author_1, 1987)));
 
     }
 }
